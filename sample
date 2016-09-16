@@ -1,0 +1,42 @@
+<HTML>
+   <HEAD>
+      <TITLE>Breaux Website</TITLE>
+       <link rel="stylesheet" type="text/css" href="cssCode.css">
+   </HEAD>
+   <BODY>
+      <h1 id="top"> My Website</h1>
+       <h2>About Me</h2>
+	   <p> My name is Andrew Breaux and I am a junior at Regis University. I am a <abbr title="Computer Science">CS</abbr> Major with a possible minor in mathmatics.</p> 
+       <p>Taking computer science classes helps especially if you want to add mathematical equations to a
+       website such as<br><font color="red">x<sup>2</sup>+10=y</font>  <br> It also helps with chemical formulas for compounds such as
+       sulphate<br><font color="blue">SO<sub>4</sub><sup>2-</sup></font><br>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA601u3of0WsCd1wqxcbjc7ZaVIgOpD5U07igyLH_29tNZWwlV"></p>
+       <hr>
+       <p> Im from Franktown, Colorado but currently live in Denver near
+       <del>campus</del> <ins>Regis</ins> with five roommates. If youre looking for cheap housing near Regis, check out 
+       <a href="http://www.theberkeleyatregis.com" target="_blank"><i>The Berkeley at Regis</i></a>&#33; During
+       the summer I work as a waitor and a bartender at the 
+       <a href="http://www.thepinerycc.com" target="_blank" ><i>Pinary Country club.</i><br><br></a>
+       <iframe src=http://www.thepinerycc.com height="300" width="450" frameborder="0" scrolling="yes">
+       </iframe></p>
+       
+       <p>I enjoy doing outdoor activities and playing <b>intramural sports</b> at regis. I play soccer and
+       volleyball in my free time and I like hike and mountain climb when im not busy with sports.
+       During the winter, I enjoy snowboarding with friends and playing hockey with my family.</p>
+       
+       <blockquote>Sports that I've played or currently play include 
+       <ul>
+       <li>Baseball</li>
+       <li>Basketball</li>
+       <li>Soccer</li>
+       <li>Golf</li>
+       <li>Volleyball</li>
+       </ul>
+       </blockquote>
+       
+    
+       <p><a href="WebsiteIndex.html">Back to Index</a>
+       </p>
+        <a href="#top">Top of page</a>
+    </BODY>
+</HTML>
