@@ -1,7 +1,7 @@
 <HTML>
-   <HEAD>
-	<script>
-
+<HEAD>
+<script>
+    
 function setCookie(cname,cvalue,exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -27,7 +27,6 @@ function getCookie(cname) {
 function checkCookie() {
     var user=getCookie("username");
     if (user != "") {
-        
         alert("Welcome again " + user);
     } else {
        user = prompt("Please enter your name:","");
@@ -36,20 +35,21 @@ function checkCookie() {
        }
     }
 }
-
+function sayHello(){
+    alert("Wrong choice")
+        
+}
 </script>
       <TITLE>Breaux Website</TITLE>
        <link rel="stylesheet" type="text/css" href="cssCode.css">
    </HEAD>
    <BODY onload="checkCookie()">
-      <h1 id="top"> My Website</h1>
+       <input type="button" onclick="sayHello()" value="Do Not Click" >
+       <h1 id="top"> My Website</h1>
        <h2>About Me</h2>
+       
 	   <p> My name is Andrew Breaux and I am a junior at Regis University. I am a <abbr title="Computer Science">CS</abbr> Major with a possible minor in mathmatics.</p> 
-       <p>Taking computer science classes helps especially if you want to add mathematical equations to a
-       website such as<br><font color="red">x<sup>2</sup>+10=y</font>  <br> It also helps with chemical formulas for compounds such as
-       sulphate<br><font color="blue">SO<sub>4</sub><sup>2-</sup></font><br>
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA601u3of0WsCd1wqxcbjc7ZaVIgOpD5U07igyLH_29tNZWwlV"></p>
-       <hr>
+       
        <p> Im from Franktown, Colorado but currently live in Denver near
        <del>campus</del> <ins>Regis</ins> with five roommates. If youre looking for cheap housing near Regis, check out 
        <a href="http://www.theberkeleyatregis.com" target="_blank"><i>The Berkeley at Regis</i></a>&#33; During
@@ -70,9 +70,22 @@ function checkCookie() {
        <li>Volleyball</li>
        </ul>
        </blockquote>
+       <hr>
+       
+       <h2>Random Knowledge</h2>
+       <iframe src="http://cdn.iwastesomuchtime.com/10232012081374.jpg" width="460" height="400" scrolling="yes"></iframe>
+       <h2>Inspirational Quotes</h2>
+       <p>In order to succeed, we must first believe that we can. <br> &nbsp;-Nikos Kazantzakis
+        <br>
+       It always seems impossible until its done. <br> &nbsp;-Nelson Mandela
+       <br>
+        Keep your eyes on the stars, and your feet on the ground. <br> &nbsp;-Theodore Roosevelt
+
+       </p>
+       <hr>
        
     
-       <p><a href="index.html">Back to Index</a>
+       <p><a href="WebsiteIndex.html">Back to Index</a>
        </p>
         <a href="#top">Top of page</a>
     </BODY>
